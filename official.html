@@ -1,0 +1,653 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>My official web</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="navbar" ><ul>
+<li><a href="/">About</a></li>
+<li><a href="/" >Login</a></li>
+<li><a href="/" >Contact us</a></li>
+<img id="profile" src="content://media/external/downloads/10380" width="50px" height="50px">
+</ul>
+<div class="hamburger" onclick="document.getElementById('menubar').style.opacity=1">
+   <div class="line line1"></div>
+   <div class="line line2"></div>
+   <div class="line line3"></div>
+</div>
+</div>
+<div class="animatedtext">
+<div class="lines">Wellcome</div>
+<div class="lines">In My</div>
+<div class="lines">Official</div>
+<div class="lines">Website</div>
+</div>
+ <div class="menu-bar" id="menubar">
+  <div class="menu-items">
+  <li class="border">Sign-up</li>
+  <li class="border">Log-out</li>
+  <li class="border1">Download</li>
+  <li class="border">About</li>
+  </div>
+ </div>
+ <div class="back"> <h2 id="know">it's know about my learning & project</h2></div>
+ <img class="hero" src="content://media/external/downloads/9176">
+
+<div class="skillbox">
+ <div class="skillcard">
+    <p class="skill-1">1) HTML,structered language..</p>
+    <img src="content://media/external/downloads/10263" class="skill_logo">
+    <img src="content://media/external/downloads/10385" class="like" onclick="incrementNumber1()"> <h2 id="counter">0</h2>
+    <h5 id="skil">It's my first language,which is started learn in college time.firstly it's dificult for me, but after some time ,its Completly Understood.lets know About this.How i improved this in my skills.<br><b>Itroduction of HTML tag</b>like <b>H1...H6,P tag, input tag,button tag.and so on</b>after this, i know about Animation .it's soo nice look my website. </h5>
+ </div>
+  <div class="skillcard">
+    <p class="skill-1">2) CSS-</p>
+    <img src="content://media/external/downloads/10267" class="skill_logo">
+    <img src="content://media/external/downloads/10385" class="like" onclick="incrementNumber2()"> <h2 id="counter1">0</h2>
+    <h5 id="skil"> CSS means <b>Cascading Style Seet</b>it's very easy fore designe Wevpage or UI .it's Use for designing purpose.</h5>
+  </div>
+  <div class="skillcard">
+    <p class="skill-1">3) C/C++</p>
+    <img src="content://media/external/downloads/10268" class="skill_logo">
+    <img src="content://media/external/downloads/10385" class="like" onclick="incrementNumber3()"> <h2 id="counter2">0</h2>
+    <h5 id="skil">  <mark>Programing Language</mark>it's A High Level language ,Used for Software Design.its languge i have learned with C language.</h5>
+  </div>  
+  <div class="skillcard"> 
+    <p class="skill-1">4) JAVA</p>
+    <img src="content://media/external/downloads/10269" class="skill_logo">
+    <img src="content://media/external/downloads/10385" class="like" onclick="incrementNumber4()"> <h2 id="counter3">0</h2>
+    <h5 id="skil"> <mark>HighLevel Language</mark>it's Most high level and Typically language.in 2023 i am learning and prepairing on this language.</h5>
+  </div>
+         <h2 id="aboutme">If You Are Intrested To Know About Me And My Jurney Of Study And Coding Line ..How Became i Involved In Coding Jurney...If you Know All Then Click Under Button____KnowMore</h2>
+    <button  id="btn" onclick="show()">Know more</button>
+    <p class="skill-1">Know I talk about my Projects</p>
+    <div id="project">
+    <h5 >.1) Honda Company Oficial Web Page clone </h5>
+    <h5>.2) Advanture UI </h5>
+    <h5>.3) Flipkart oficial website clone</h5>
+    <h5>.4) Small Randomly ColorFull "Light Lamp"</h5>
+    <h5>.5) "Gausing Game".Random wining Number</h5>
+    <h5>.6) Animation Car Game </h5>
+    </div>
+    <hr>
+</div>
+
+ <div>
+ <img id="backimg" class="user_form" src="content://media/external/downloads/5623">
+  
+   <div id="frm" class="form">
+   <input  id="name" type="text" placeholder="Name">
+   <input type="number" placeholder="number">
+   <button onclick="login()" id="sbmt">Submit</button>
+  
+  </div>
+  <h2 id="reg" onclick="regs()">Registor</h2>
+ </div>
+ <!-- User review -->
+ <div class="review">
+    <h2 style="color:red;">Give your review.its important for me</h2>
+   <textarea id="usertext"></textarea>
+   <button id="usersbmt" onclick="review()">Submit</button>
+      <img src="" id="userimg">
+   <span id="set"></span>
+ </div>
+ <div class="futter">
+  <div class="futter-text">
+   <h2>HELP</h2>
+    <p>FAQ</p>
+    <p>Report management</p>
+    <p>Feedback</p>
+    <p>more</p>
+  </div>
+  <div class="futter-text">
+    <h2>CONSUMER_POLYCY</h2>
+      <p>Term Of Use</p>
+      <p>Socity</p>
+      <p>Privacy</p>
+      <p>Security</p>
+      <p>User_Policy</p>
+  </div>
+<div class="futter-text">
+ <h2>ABOUT</h2>
+  <p>Contact_Us</p>
+  <p>About_Us</p>
+  <p>Peeks</p>
+  <p>Querry</p>
+</div>
+<div class="futter-text-icons">
+ <a href="https://www.instagram.com/deepaksen9719?igsh=OGY3MTU3OGY1Mw==" ><i class="fa-brands fa-instagram"></i></a>
+ <a href="https://tinyurl.com/yc63a8kn" ><i class="fa-brands fa-whatsapp"></i></a>
+ <a href="https://www.youtube.com/@deepaksen1568" ><i class="fa-brands fa-square-youtube"></i></a>
+ <a href="" onclick="contact('8450847565')"><i class="fa-solid fa-user"></i></a>
+</div>
+ </div>
+</body>
+<style type="text/css">
+body{
+width:150%;
+height:100%;
+margin:0px;
+padding:0px;
+font-family:sans-serif;
+background:#eee;
+box-size:content-box;
+}
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+height:70px;
+background:#2CD5C0;
+display:flex;
+align-items:center;
+z-index:6;
+transition: background-color 0.3s ease; 
+}
+.navbar li{
+float:left;
+list-style:none;
+}
+.navbar li a{
+text-decoration:none;
+margin-left:35px;
+font-size:36px;
+font-weight:700;
+color:#fff;
+text-shadow:3px 4px 3px darkred;
+}
+.hamburger{
+width:30px;
+height:25px;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+margin-left:45px;
+position:relative;
+left:700px;
+}
+.line:hover~.menu-bar{
+transform:translateX(0%);
+}
+.line{
+width:30px;
+height:4px;
+background:white;
+border-radius:10px;
+transition:0.8s ease-in-out;
+}
+.hamburger:hover .line1{
+transform:rotate(45deg);
+}
+.hamburger:hover .line2{
+opacity:0;
+}
+.hamburger:hover .line3{
+transform:rotate(-45deg);
+}
+.hamburger .line1{
+transform-origin:0% 0%;
+}
+.hamburger .line{
+transform-origin:0% 100%;
+}
+.menu-bar{
+width:300px;
+height:500px;
+background: mediumslateblue;
+border-radius:0px 0px 0px 100px;
+position:absolute;
+top:20px;
+right:-858px;
+display:flex;
+opacity:0;
+transition: transform 1.5s;
+border:2px solid orange;
+transform:translateX(-120%);
+}
+.menu-items{
+flex-direction:column;
+justify-content:space-between;
+}
+.menu-items li{
+list-style:none;
+font-size:20px;
+font-weight:700;
+margin-left:130px;
+margin-top:30px;
+color:#fff;
+}
+
+/*  Add*/
+
+.animatedtext{
+width:350px;
+height:100px;
+background:#fff;
+color:white;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+margin-top:130px;
+margin-left:50px;
+padding:0 60px;
+overflow:hidden;
+}
+.lines{
+text-align:center;
+font-size:70px;
+font-weight:bold;
+line-height:90px;
+text-shadow:4px 4px 5px crimson;
+}
+.lines:first-child{
+animation:anim 10s infinite;
+}
+@keyframes anim{
+0%{
+margin-top:3px;
+}
+33%{
+margin-top:-90px;
+}
+55%{
+margin-top:-180px;
+}
+85%{margin-top:-280px;}
+100%{
+margin-top:28px;
+}
+}
+.border{
+width:80px;
+height:40px;
+border:2px solid transparent;
+display:flex;
+align-items:center;
+}
+.border1{
+width:110px;
+height:40px;
+border:2px solid transparent;
+display:flex;
+align-items:center;
+}
+.border1:hover{
+width:110px;
+height:40px;
+border:2px solid white;
+}
+.border:hover{
+width:80px;
+height:40px;
+border:2px solid white;
+}
+.hero{
+width:100%;
+height:1100px;
+background:#edf1f4;
+background-size:cover;
+display:flex;
+align-items:center;
+flex-direction:column;
+position:relative;
+top:-940px;
+z-index:-3;
+}
+.back{
+width:100%;
+height:990px;
+background:rgba(7,6,6,.3);
+z-index:4;
+}
+h1{
+font-size:45px;
+font-weight:1000;
+text-shadow:4px 4px 5px gray;
+position:relative;
+top:-90px;
+}
+#know{
+font-size:100px;
+font-weight:800;
+letter-spacing:0px;
+color:white;
+z-index:9;
+position:relative;
+top:600px;
+left:20px;
+text-shadow:4px 4px 5px #2CD5C0;
+}
+#aboutme{
+color:gray;
+text-shadow:3px 4px 3px #ccc;
+margin-left:10px;
+font-size:32px;
+}
+h3{
+font-size:23px;
+font-weight:800;
+letter-spacing:10px;
+position:relative;
+top:137px;
+}
+h4{
+position:absolute;
+right:60px;
+top:50%;
+font-size:19px;
+font-family:cursive;
+color:white;
+}
+#btn{
+font-size:22px;
+width:420px;
+height:70px;
+color:orange;
+font-weight:700;
+border:1px solid blue;
+box-shadow:3px 2px 7px cyan;
+background:linear-gradient(white,#2CD5C0);
+}
+#btn:hover{
+background:linear-gradient(#2CD5C0,white);
+}
+#btn:active{
+font-size:18px;
+}
+
+.skillbox{
+display:flex;
+align-items:center;
+flex-direction:column;
+}
+.skillcard{
+width:100%;
+height:600px;
+margin-top:30px;
+background:rgba(5, 252, 215,.1);
+}
+
+.skill-1{
+font-weight:700;
+font-size:35px;
+margin-left:10px;
+color:#232323;
+}
+.skill_logo{
+width:50%;
+height:290px;
+position:absolute;
+right:180px;
+margin-top:170px;
+box-shadow:4px 4px 2px 4px gray;
+}
+#skil{
+margin-left:20px;
+color:gray;
+width:1300px;
+height:200px;
+font-size:29px;
+}
+#project{
+color:mediumslateblue;
+font-size:28px;
+opacity:0;
+position:relative;
+right:480px;
+}
+
+
+.user_form{
+width:70%;
+height:70%;
+background:#edf1f4;
+margin:80px 210px;
+opacity:0;
+}
+
+.form{
+width:750px;
+height:600px;
+background:rgba(218,223,225,.4);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+position:absolute;
+bottom:-290%;
+left:35%;
+opacity:0;
+}
+input{
+margin-top:30px;
+width:340px;
+height:34px;
+outline:none;
+background:white;
+color:blue;
+border:none;
+font-size:28px;
+}
+#sbmt{
+width:200px;
+height:50px;
+background:#2CD5C0;
+border:none;
+border-radius:6px;
+margin-top:30px;
+font-size:28px;
+font-weight:700;
+}
+#reg{
+font-size:32px;
+font-weight:700;
+position:fixed;
+top:-17px;
+left:43%;
+color:white;
+z-index:17;
+text-shadow:3px 4px 3px darkred;
+}
+#profile{
+margin-left:15px;
+opacity:0;
+}
+.like{
+width:100px;
+height:100px;
+position:absolute;
+right:-370px;
+margin-top:160px;
+}
+.like:hover{
+transform:scale(.8);
+transition:transform .8s linear;
+}
+#counter, #counter1, #counter2, #counter3{
+position:absolute;
+right:-450px;
+margin-top:170px;
+text-align:center;
+color:red;
+font-size:29px;
+font-weight:800;
+}
+
+/*  USER REVIEW */
+
+.review{
+margin-left:320px;
+display:grid;
+grid-template-column:250px;
+}
+#usertext{
+width:600px;
+height:160px;
+color:blue;
+font-size:25px;
+font-weight:700;
+}
+#usersbmt{
+width:230px;
+height:70px;
+border-radius:10px;
+background:#ffee00;
+color:blue;
+margin:70px 180px;
+border:none;
+font-size:30px;
+}
+#set{
+width:600px;
+font-size:35px;
+background:#ccc;
+border-radius:50px;
+}
+#userimg{
+width:130px;
+height:130px;
+border-radius:50%;
+}
+
+.futter{
+width:100%;
+height:30%;
+background:#0f2431;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+}
+.futter-text{
+font-size:20px;
+font-weight:800;
+color:#cccc;
+margin:20px;
+}
+.futter-text-icons{
+display:flex;
+flex-direction:row;
+color:white;
+position:relative;
+top:450px;
+font-size:40px;
+height:0;
+width:fit-content;
+}
+.futter-text-icons i{
+margin-right:40px;
+color:white;
+}
+
+h1{
+width:140px;
+height:15px;
+position:relative;
+border-radius:15px;
+background:linear-gradient(blue,white ,blue);
+position:relative;
+top:-1300px;
+left:220px;
+
+animation:light 9s linear infinite;
+}
+@keyframes light{
+0%{
+transform:translateX(0px);
+}
+25%{
+width:850px;
+transform:translateX(0px);
+}
+50%{
+width:0px;
+transform:translateY(760px);
+}
+75%{
+transform:translateZ(790px);
+}
+100%{
+transform:translateX(790px);
+}
+}
+</style>
+<script type="text/javascript">
+let img= document.getElementById("backimg");
+let form= document.getElementById("frm");
+
+let project = document.getElementById("project");
+let skil = document.getElementById("skil");
+var reg = document.getElementById("reg");
+function show(){
+project.style="opacity:1;"
+}
+
+
+function login() {
+var uname= document.getElementById("name").value;
+document.getElementById("name").value="";
+document.getElementById("reg").innerText=uname;
+document.getElementById("profile").style="opacity:1;";
+}
+
+function regs(){
+img.style="opacity:1;"
+form.style="opacity:1;"
+}
+
+
+
+function incrementNumber1() {
+ var element = document.getElementById('counter');
+ var value = element.innerHTML;
+ ++value;
+ document.getElementById('counter').innerHTML = value;
+}
+function incrementNumber2() {
+ var element = document.getElementById('counter1');
+ var value = element.innerHTML;
+ ++value;
+ document.getElementById('counter1').innerHTML = value;
+}
+
+function incrementNumber3() {
+ var element = document.getElementById('counter2');
+ var value = element.innerHTML;
+ ++value;
+  document.getElementById('counter2').innerHTML = value;
+
+}
+
+function incrementNumber4() {
+ var element = document.getElementById('counter3');
+ var value = element.innerHTML;
+ ++value;
+   document.getElementById('counter3').innerHTML = value;
+}
+
+
+    document.addEventListener("scroll", function() {
+        var scrollPosition = window.scrollY;
+
+        // Adjust the opacity based on the scroll position
+        var opacity = 0.7 - (scrollPosition * 0.002);
+
+        // Ensure the opacity is within a valid range (0 to 1)
+        opacity = Math.min(Math.max(opacity, 0), 1);
+
+        // Update the background color with the new opacity
+        document.querySelector(".navbar").style.backgroundColor = "rgba(44, 213, 193, " + opacity + ")";
+    });
+
+function review(){
+let userimg= document.getElementById("userimg");
+let msg= document.getElementById("usertext").value;
+document.getElementById("set").innerHTML+="<h2>"+msg+"</h2>";
+userimg.src="content://media/external/downloads/10380";
+  document.getElementById('usertext').value = ''; // Clear the textarea after updating
+}
+
+function contact(phoneNumber) {
+    // Use the tel URI scheme to initiate a phone call
+    window.location.href = 'tel:' + phoneNumber;
+}
+</script>
+</html>
